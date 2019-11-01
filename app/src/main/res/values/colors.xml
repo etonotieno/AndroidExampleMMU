@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
     <color name="purple">#8E24AA</color>
-    <color name="pink">#C02E59</color>
+    <color name="pink">#ff0266</color>
+
+
+    <color name="primaryColor">#0035c9</color>
+    <color name="primaryDarkColor">#023094</color>
+    <color name="colorOnPrimary">#F4EEED</color>
+
+    <color name="secondaryColor">#534E2F</color>
+    <color name="secondaryDarkColor">#242316</color>
+    <color name="colorOnSecondary">#F4EEED</color>
+
+    <color name="colorError">#61B872</color>
+    <color name="colorOnError">#F4EEED</color>
+
+    <color name="colorSurface">#FFFFFF</color>
+
 </resources>
