@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         val teamBPlusTwo: Button = findViewById(R.id.teamBPlusTwo)
         val teamBFreeThrow: Button = findViewById(R.id.teamBFreeThrow)
 
+        val resetScoreButton: Button = findViewById(R.id.resetScoreButton)
 
         teamAPlusThree.setOnClickListener {
             teamAScore += 3
@@ -46,6 +47,13 @@ class MainActivity : AppCompatActivity() {
         }
         teamBFreeThrow.setOnClickListener {
             teamBScore += 1
+            displayScoreForTeamB()
+        }
+
+        resetScoreButton.setOnClickListener {
+            teamAScore = 0
+            teamBScore = 0
+            displayScoreForTeamA()
             displayScoreForTeamB()
         }
 
